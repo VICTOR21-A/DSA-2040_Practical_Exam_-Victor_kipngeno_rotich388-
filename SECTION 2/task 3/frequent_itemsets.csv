@@ -1,0 +1,148 @@
+support,itemsets,length
+0.325,frozenset({'apple'}),1
+0.325,frozenset({'banana'}),1
+0.8,frozenset({'beer'}),1
+0.8,frozenset({'bread'}),1
+0.225,frozenset({'butter'}),1
+0.325,frozenset({'cereal'}),1
+0.275,frozenset({'cheese'}),1
+0.2,frozenset({'chicken'}),1
+0.55,frozenset({'chips'}),1
+0.2,frozenset({'chocolate'}),1
+0.275,frozenset({'coffee'}),1
+0.7,frozenset({'diapers'}),1
+0.275,frozenset({'eggs'}),1
+0.725,frozenset({'milk'}),1
+0.25,frozenset({'onion'}),1
+0.35,frozenset({'pasta'}),1
+0.275,frozenset({'rice'}),1
+0.525,frozenset({'soda'}),1
+0.2,"frozenset({'apple', 'beer'})",2
+0.25,"frozenset({'apple', 'bread'})",2
+0.25,"frozenset({'apple', 'chips'})",2
+0.225,"frozenset({'diapers', 'apple'})",2
+0.25,"frozenset({'apple', 'milk'})",2
+0.2,"frozenset({'apple', 'soda'})",2
+0.275,"frozenset({'beer', 'banana'})",2
+0.225,"frozenset({'bread', 'banana'})",2
+0.2,"frozenset({'diapers', 'banana'})",2
+0.25,"frozenset({'milk', 'banana'})",2
+0.675,"frozenset({'bread', 'beer'})",2
+0.2,"frozenset({'butter', 'beer'})",2
+0.3,"frozenset({'cereal', 'beer'})",2
+0.475,"frozenset({'chips', 'beer'})",2
+0.275,"frozenset({'coffee', 'beer'})",2
+0.6,"frozenset({'diapers', 'beer'})",2
+0.225,"frozenset({'eggs', 'beer'})",2
+0.6,"frozenset({'milk', 'beer'})",2
+0.25,"frozenset({'beer', 'pasta'})",2
+0.225,"frozenset({'rice', 'beer'})",2
+0.45,"frozenset({'soda', 'beer'})",2
+0.275,"frozenset({'cereal', 'bread'})",2
+0.4,"frozenset({'chips', 'bread'})",2
+0.25,"frozenset({'coffee', 'bread'})",2
+0.55,"frozenset({'diapers', 'bread'})",2
+0.225,"frozenset({'eggs', 'bread'})",2
+0.7,"frozenset({'milk', 'bread'})",2
+0.2,"frozenset({'onion', 'bread'})",2
+0.3,"frozenset({'bread', 'pasta'})",2
+0.25,"frozenset({'rice', 'bread'})",2
+0.45,"frozenset({'soda', 'bread'})",2
+0.225,"frozenset({'cereal', 'chips'})",2
+0.25,"frozenset({'diapers', 'cereal'})",2
+0.275,"frozenset({'cereal', 'milk'})",2
+0.2,"frozenset({'soda', 'cereal'})",2
+0.425,"frozenset({'diapers', 'chips'})",2
+0.375,"frozenset({'chips', 'milk'})",2
+0.4,"frozenset({'soda', 'chips'})",2
+0.2,"frozenset({'coffee', 'diapers'})",2
+0.2,"frozenset({'coffee', 'milk'})",2
+0.525,"frozenset({'diapers', 'milk'})",2
+0.275,"frozenset({'diapers', 'pasta'})",2
+0.375,"frozenset({'diapers', 'soda'})",2
+0.225,"frozenset({'eggs', 'milk'})",2
+0.3,"frozenset({'milk', 'pasta'})",2
+0.2,"frozenset({'rice', 'milk'})",2
+0.4,"frozenset({'soda', 'milk'})",2
+0.2,"frozenset({'soda', 'rice'})",2
+0.2,"frozenset({'apple', 'chips', 'beer'})",3
+0.225,"frozenset({'apple', 'milk', 'bread'})",3
+0.2,"frozenset({'apple', 'soda', 'milk'})",3
+0.2,"frozenset({'beer', 'bread', 'banana'})",3
+0.2,"frozenset({'beer', 'diapers', 'banana'})",3
+0.225,"frozenset({'beer', 'milk', 'banana'})",3
+0.225,"frozenset({'bread', 'milk', 'banana'})",3
+0.25,"frozenset({'bread', 'cereal', 'beer'})",3
+0.375,"frozenset({'bread', 'chips', 'beer'})",3
+0.25,"frozenset({'coffee', 'bread', 'beer'})",3
+0.475,"frozenset({'diapers', 'bread', 'beer'})",3
+0.2,"frozenset({'eggs', 'bread', 'beer'})",3
+0.575,"frozenset({'bread', 'milk', 'beer'})",3
+0.225,"frozenset({'bread', 'beer', 'pasta'})",3
+0.225,"frozenset({'bread', 'rice', 'beer'})",3
+0.4,"frozenset({'bread', 'soda', 'beer'})",3
+0.2,"frozenset({'cereal', 'chips', 'beer'})",3
+0.225,"frozenset({'diapers', 'cereal', 'beer'})",3
+0.25,"frozenset({'cereal', 'milk', 'beer'})",3
+0.375,"frozenset({'diapers', 'chips', 'beer'})",3
+0.35,"frozenset({'milk', 'chips', 'beer'})",3
+0.35,"frozenset({'soda', 'chips', 'beer'})",3
+0.2,"frozenset({'coffee', 'diapers', 'beer'})",3
+0.2,"frozenset({'coffee', 'milk', 'beer'})",3
+0.45,"frozenset({'diapers', 'milk', 'beer'})",3
+0.25,"frozenset({'diapers', 'beer', 'pasta'})",3
+0.3,"frozenset({'diapers', 'soda', 'beer'})",3
+0.2,"frozenset({'eggs', 'milk', 'beer'})",3
+0.225,"frozenset({'milk', 'beer', 'pasta'})",3
+0.35,"frozenset({'soda', 'milk', 'beer'})",3
+0.2,"frozenset({'diapers', 'cereal', 'bread'})",3
+0.25,"frozenset({'cereal', 'milk', 'bread'})",3
+0.3,"frozenset({'diapers', 'chips', 'bread'})",3
+0.35,"frozenset({'milk', 'chips', 'bread'})",3
+0.35,"frozenset({'soda', 'chips', 'bread'})",3
+0.2,"frozenset({'coffee', 'milk', 'bread'})",3
+0.5,"frozenset({'diapers', 'milk', 'bread'})",3
+0.25,"frozenset({'diapers', 'bread', 'pasta'})",3
+0.3,"frozenset({'diapers', 'soda', 'bread'})",3
+0.225,"frozenset({'eggs', 'milk', 'bread'})",3
+0.275,"frozenset({'milk', 'bread', 'pasta'})",3
+0.2,"frozenset({'milk', 'rice', 'bread'})",3
+0.375,"frozenset({'soda', 'milk', 'bread'})",3
+0.2,"frozenset({'cereal', 'soda', 'chips'})",3
+0.2,"frozenset({'diapers', 'cereal', 'milk'})",3
+0.275,"frozenset({'diapers', 'chips', 'milk'})",3
+0.3,"frozenset({'diapers', 'soda', 'chips'})",3
+0.35,"frozenset({'soda', 'chips', 'milk'})",3
+0.25,"frozenset({'diapers', 'milk', 'pasta'})",3
+0.3,"frozenset({'diapers', 'soda', 'milk'})",3
+0.2,"frozenset({'beer', 'bread', 'milk', 'banana'})",4
+0.225,"frozenset({'bread', 'cereal', 'milk', 'beer'})",4
+0.275,"frozenset({'diapers', 'bread', 'chips', 'beer'})",4
+0.325,"frozenset({'milk', 'bread', 'chips', 'beer'})",4
+0.325,"frozenset({'bread', 'soda', 'chips', 'beer'})",4
+0.2,"frozenset({'coffee', 'bread', 'milk', 'beer'})",4
+0.425,"frozenset({'diapers', 'bread', 'milk', 'beer'})",4
+0.225,"frozenset({'diapers', 'bread', 'beer', 'pasta'})",4
+0.25,"frozenset({'diapers', 'bread', 'soda', 'beer'})",4
+0.2,"frozenset({'eggs', 'bread', 'milk', 'beer'})",4
+0.2,"frozenset({'bread', 'milk', 'beer', 'pasta'})",4
+0.325,"frozenset({'bread', 'soda', 'milk', 'beer'})",4
+0.25,"frozenset({'milk', 'diapers', 'chips', 'beer'})",4
+0.25,"frozenset({'diapers', 'soda', 'chips', 'beer'})",4
+0.325,"frozenset({'milk', 'soda', 'chips', 'beer'})",4
+0.225,"frozenset({'diapers', 'milk', 'beer', 'pasta'})",4
+0.25,"frozenset({'diapers', 'soda', 'milk', 'beer'})",4
+0.25,"frozenset({'milk', 'diapers', 'chips', 'bread'})",4
+0.25,"frozenset({'diapers', 'soda', 'chips', 'bread'})",4
+0.325,"frozenset({'milk', 'soda', 'chips', 'bread'})",4
+0.225,"frozenset({'diapers', 'milk', 'bread', 'pasta'})",4
+0.275,"frozenset({'diapers', 'soda', 'milk', 'bread'})",4
+0.25,"frozenset({'diapers', 'soda', 'chips', 'milk'})",4
+0.225,"frozenset({'chips', 'bread', 'diapers', 'milk', 'beer'})",5
+0.225,"frozenset({'soda', 'chips', 'bread', 'diapers', 'beer'})",5
+0.3,"frozenset({'soda', 'chips', 'bread', 'milk', 'beer'})",5
+0.2,"frozenset({'bread', 'diapers', 'milk', 'beer', 'pasta'})",5
+0.225,"frozenset({'soda', 'bread', 'diapers', 'milk', 'beer'})",5
+0.225,"frozenset({'soda', 'chips', 'diapers', 'milk', 'beer'})",5
+0.225,"frozenset({'soda', 'chips', 'bread', 'diapers', 'milk'})",5
+0.2,"frozenset({'soda', 'chips', 'bread', 'diapers', 'milk', 'beer'})",6

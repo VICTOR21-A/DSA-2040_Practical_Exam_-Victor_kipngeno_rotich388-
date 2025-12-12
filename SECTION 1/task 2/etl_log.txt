@@ -1,0 +1,31 @@
+2025-12-10 20:38:00,407 - INFO - ETL started.
+2025-12-10 20:38:00,408 - ERROR - ETL failed: 'InvoiceDate'
+2025-12-10 20:38:08,066 - INFO - ETL started.
+2025-12-10 20:38:08,066 - ERROR - ETL failed: 'InvoiceDate'
+2025-12-10 20:44:26,228 - INFO - ETL started.
+2025-12-10 20:44:26,231 - ERROR - ETL failed: 'InvoiceDate'
+2025-12-10 20:55:02,712 - INFO - Data loaded successfully into the data warehouse.
+2025-12-10 20:58:13,891 - ERROR - Error loading data into the data warehouse: Cannot operate on a closed database.
+2025-12-10 21:06:38,719 - ERROR - Error loading data into the data warehouse: Cannot operate on a closed database.
+2025-12-10 21:08:37,867 - ERROR - Error loading data into the data warehouse: Execution failed on sql '
+        SELECT
+            name
+        FROM
+            sqlite_master
+        WHERE
+            type IN ('table', 'view')
+            AND name=?;
+        ': file is not a database
+2025-12-10 21:09:17,594 - ERROR - Error loading data into the data warehouse: Execution failed on sql '
+        SELECT
+            name
+        FROM
+            sqlite_master
+        WHERE
+            type IN ('table', 'view')
+            AND name=?;
+        ': file is not a database
+2025-12-10 21:29:07,387 - INFO - Data loaded successfully into the data warehouse.
+2025-12-10 23:31:48,207 - INFO - Data loaded successfully into the data warehouse.
+2025-12-12 07:21:17,586 - INFO - Data loaded successfully into the data warehouse.
+2025-12-12 07:21:57,558 - INFO - Data loaded successfully into the data warehouse.
